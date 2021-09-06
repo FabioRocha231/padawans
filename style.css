@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+/* estilizaçao menu */
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    height: 65px;
+    background-image: linear-gradient(to right, rgb(68, 199, 231) , rgba(121, 227, 253, 0.658));
+    align-items: center;
+    justify-content: center;
+}
+
+.menu li {
+    background-color: rgba(140, 161, 255, 0.452);
+    margin-left: 20px;
+    height: 25px;
+    width: 100px;
+    border-radius: 10px;
+    padding-top: 5px;
+    text-align: center;
+    display: block;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.menu li:hover {
+    transform: translateY(-3px);
+}
+h1 {
+    text-align: center;
+}
+/*estilizaçao das*/
+
+.publicacao {
+    border-radius: 10px;
+    background: rgba(101, 181, 247, 0.26);
+    width: 230px;
+    height: auto;
+    margin: 10px 0 5px 50px;
+}
+.postagens {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100% - 1px;
+
+}
+
+main {
+    height: 300px;
+}
+.titulo {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgba(66, 252, 252, 0.527);
+    color: rgb(77, 60, 136);
+    width: 100%;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.conteudo p{ 
+    text-align: center;
+    font-size: 16px;
+    line-height: 18px;
+}
+
